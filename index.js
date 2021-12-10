@@ -28,18 +28,18 @@ io.on('connection', (socket) => {
         // socket.to(data.senderId).emit('receive_message', data)
     })
 
-    // socket.on('login', (data) => {
-    //     console.log('a user ' + data.userId + " connected")
-    //     socket.on('login').emit(data.userId)
-    //     users[socket.id] = data.userId
-    //     console.log(users)
-    // })
+    socket.on('login', (data) => {
+        console.log('a user ' + data.userId + " connected")
+        users[socket.id] = data.userId
+        console.log(users)
+        io.emit('user_online', data.userId)
+    })
 
 
-    // socket.on("disconnect", () => {
-    //     console.log('user ' + users[socket.id] + " disconnected")
-    //     delete users[socket.id]
-    // })
+    socket.on("disconnect", () => {
+        console.log('user ' + users[socket.id] + " disconnected")
+        delete users[socket.id]
+    })
 })
 
 
