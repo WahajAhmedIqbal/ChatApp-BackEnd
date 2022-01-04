@@ -1,0 +1,1871 @@
+@font-face {
+    font-family: notoSansBold;
+    src: url(../fonts/NotoSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: notoSansBoldItalic;
+    src: url(../fonts/NotoSans-BoldItalic.ttf);
+}
+
+@font-face {
+    font-family: notoSansItalic;
+    src: url(../fonts/NotoSans-Italic.ttf);
+}
+
+@font-face {
+    font-family: notoSansRegular;
+    src: url(../fonts/NotoSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: Playfair;
+    src: url(../fonts/PlayfairDisplay-Italic.ttf);
+}
+
+@font-face {
+    font-family: PlayfairRegular;
+    src: url(../fonts/PlayfairDisplay-Regular.ttf);
+}
+
+@font-face {
+    font-family: CantarellBold;
+    src: url(../fonts/Cantarell-Bold.ttf);
+}
+
+@font-face {
+    font-family: CantarelRegular;
+    src: url(../fonts/Cantarell-Regular.ttf);
+}
+
+/* by hassan */
+/*--Start Grobal--*/
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Poppins:wght@400;500;600;700&display=swap');
+/* 
+.rows {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+} */
+
+@font-face {
+    font-family: PlayfairItalic;
+    src: url(../fonts/PlayfairDisplay-Italic.ttf);
+}
+
+
+
+/*--End Grobal--*/
+
+/* commons */
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.row {
+    width: 100%;
+}
+
+/* body overflow */
+body,
+html {
+    overflow-x: hidden !important;
+}
+/* testimonials section */
+.comment{
+    width: 60%;
+}
+.comment-sec p{
+    font-family: notoSansRegular;
+    font-size:12px;
+}
+.comment-sec .comment{
+    position: relative;
+}
+.comment-sec .comment:before { 
+    content: open-quote;
+    font-weight: bold;
+    font-size: 40px;
+    color: #000;
+    position: absolute;
+    top: 0;
+    left: 0;
+} 
+.comment-sec .comment:after { 
+    content: close-quote;
+    font-weight: bold;
+    font-size: 40px;
+    color: #000;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+} 
+.comment-sec .comment h1{
+    font-family:PlayfairItalic;
+    color:#000;
+}
+.testimonial-sec .swiper .swiper-wrapper{
+    position: relative;
+}
+.testimonial-sec .next{
+    position: absolute;
+    right: 250px;
+    bottom: 50%;
+    z-index: 40;
+    transform: translateY(-50%);
+}
+.testimonial-sec .prev{
+    position: absolute;
+    left: 250px;
+    bottom: 50%;
+    z-index: 40;
+    transform: translateY(-50%);
+}
+/* swiper */
+/* swiper */
+.slider-section .swiper{
+    width: 80%;
+}
+.swiper {
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: unset;
+  }
+
+  .swiper-slide {
+    text-align: left;
+    font-size: 18px;
+    background: #fff;
+    height: 460px;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: flex-start;
+    align-items: flex-start;
+  }
+  .swiperImgBox{
+      height: 100%;
+      width: 100%;
+      overflow: hidden;
+  }
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .swiper-slide p{
+      margin: 0;
+  }
+  .swiper-slide .title{
+      color:#000;
+      font-family: 'notoSansBold';
+  }
+  .swiper-slide .price,
+  .swiper-slide .price span{
+    font-family: 'PlayfairItalic';
+    color:#000;
+  }
+  .swiper-slide .price span{
+    text-decoration: line-through;
+  }
+
+.skinBtn {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 21.79px;
+    background-color: #CEA689;
+    border: none;
+    height: 33.72px;
+    color: #fff;
+    padding: 0 36px;
+    margin-top: 15px;
+    border: 1px solid transparent;
+    transition: 0.5s all ease-in-out;
+}
+
+.skinBtn:hover {
+    border-color: #CEA689;
+    background-color: transparent;
+}
+
+
+
+/* header section */
+.head {
+    background-color: #F4EDE7;
+    z-index: 1020;
+    position: relative;
+}
+
+.head label {
+    font-weight: 400;
+    font-size: 15px;
+    color: #000;
+}
+
+.header {
+    padding: 20px 110px;
+    z-index: 10;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    transition: 0.5s all ease-in-out;
+    top: 23px;
+    background-color: #fff;
+}
+
+
+.header a {
+    color: #000;
+    text-decoration: none;
+    margin: 0 10px;
+    font-family: notoSansRegular;
+}
+
+.header .navBtns a {
+    font-size: 14px;
+}
+
+.header .navBtns a:first-child {
+    margin-left: 0;
+}
+
+.header .navBtns a:last-child {
+    margin-right: 0;
+}
+
+/* hover section */
+
+.header-sec {
+    transition: 0.5s all ease-in-out;
+}
+
+
+
+.headerMain {
+    position: relative;
+}
+
+.hover-sec {
+    transition: 1s all ease-in-out;
+    opacity: 0;
+    position: absolute;
+    top: -400px;
+    z-index: 9;
+    left: 0;
+    right: 0;
+    font-family: notoSansRegular;
+    background: #fff;
+    padding-top: 1.5rem ;
+}
+
+
+.hover-sec ul {
+    list-style: none;
+    padding: 0;
+}
+
+.hover-sec ul a {
+    color: #000;
+    text-decoration: none;
+}
+.hover-sec ul a li{
+    padding: 5px 0;
+}
+.hover-sec ul a li:hover{
+    color: #CEA689;
+}
+
+.hover-sec .container1{
+    padding: 20px 110px;
+}
+
+
+
+.sliderClose {
+    cursor: pointer;
+}
+
+/* products page */
+.products-section .banner-section .row {
+    width: 100%;
+}
+
+.products-section .banner-section .row .col-lg-6:first-child .imgBigBox {
+    position: relative;
+    height: 100%;
+}
+
+.products-section .banner-section .row .col-lg-6:first-child .imgBigBox .imgBox {
+    height: 100%;
+}
+
+.products-section .banner-section .row .col-lg-6:first-child .imgBigBox .imgClick {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.products-section .banner-section .row .col-lg-6:first-child .imgBigBox .imgClick .imgClickBox {
+    width: 80px;
+    height: 80px;
+    overflow: hidden;
+    margin: 0 20px;
+}
+
+.products-section .banner-section .row .col-lg-6:first-child .imgBigBox .imgClick img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.products-section .banner-section .row .col-lg-6:first-child .imgBigBox .imgBox img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.right-side {
+    padding: 0 6rem;
+}
+
+.collapseBtn .showingCollapse .fa-long-arrow-alt-down {
+    transform: rotate(180deg);
+}
+
+.collapseBtn .fa-long-arrow-alt-down {
+    transform: rotate(0);
+    transition: 0.5s all ease-in-out;
+
+}
+
+.right-side .card {
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid #000;
+}
+
+.products-section .banner-section .row .col-lg-6:last-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.products-section .banner-section .row .col-lg-6:last-child h1 {
+    color: #000;
+    font-size: 48px;
+}
+
+.products-section .banner-section .row .col-lg-6:last-child h1:first-child {
+    font-family: notoSansBold;
+    width: 50%;
+}
+
+.products-section .banner-section .row .col-lg-6:last-child h1:nth-child(2) {
+    font-family: Playfair;
+}
+
+.products-section .banner-section .row .col-lg-6:last-child .reviews-box .reviews-stars .fa-star {
+    color: #CEA689;
+    margin: 0 5px;
+}
+
+.products-section .banner-section .row .col-lg-6:last-child .reviews-box .reivews-count label {
+    font-family: notoSansBold;
+    margin: 0 0 0 10px;
+    font-size: 14px;
+}
+
+.products-section .banner-section .row .col-lg-6:last-child .reviews-box {
+    margin: 15px 0px;
+}
+
+.products-section .banner-section .row .col-lg-6:last-child p {
+    font-family: notoSansRegular;
+    font-size: 14px;
+    margin: 1rem 0;
+}
+
+.products-section .banner-section .row .col-lg-6:last-child .qtyCounterInput {
+    position: relative;
+}
+
+.products-section .banner-section .row .col-lg-6:last-child .qtyCounterInput input {
+    width: 100%;
+    text-align: center;
+    height: 34px;
+    font-family: notoSansRegular;
+}
+
+.products-section .banner-section .row .col-lg-6:last-child .qtyCounterInput button {
+    position: absolute;
+    top: 3px;
+    background: none;
+    border: none;
+    font-family: notoSansRegular;
+}
+
+.products-section .banner-section .row .col-lg-6:last-child .qtyCounterInput button:first-child {
+    left: 5px;
+}
+
+.products-section .banner-section .row .col-lg-6:last-child .qtyCounterInput button:last-child {
+    right: 5px;
+}
+
+.products-section .banner-section .row .col-lg-6:last-child .select2-container--default .select2-selection--single .select2-selection__arrow {
+    display: none !important;
+}
+
+.products-section .banner-section .row .col-lg-6:last-child .sizeDropDown {
+    position: relative;
+}
+
+.products-section .banner-section .row .col-lg-6:last-child .select2-container {
+    width: 100% !important;
+}
+
+.products-section .banner-section .row .col-lg-6:last-child .select2-container--default .select2-selection--single,
+.products-section .banner-section .row .col-lg-6:last-child .qtyCounterInput input {
+    border: 1px solid #363636a1;
+    border-radius: 0;
+}
+
+.products-section .banner-section .row .col-lg-6:last-child .sizeDropDown .select2-container .select2-selection--single {
+    height: 34px !important;
+    display: flex;
+    align-items: center;
+}
+
+.products-section .banner-section .row .col-lg-6:last-child .sizeDropDown .fa-long-arrow-alt-down {
+    position: absolute;
+    bottom: 8px;
+    right: 8px;
+    z-index: 3;
+    transform: rotate(0);
+    transition: 0.5s all ease-in-out;
+
+}
+
+.products-section .banner-section .row .col-lg-6:last-child .sizeDropDown .fa-long-arrow-alt-down.rotate {
+    transform: rotate(180deg);
+}
+
+.products-section .banner-section .row .col-lg-6:last-child .sizeDropDown label,
+.products-section .banner-section .row .col-lg-6:last-child .qtyCounter label {
+    font-size: 12px;
+    font-family: notoSansBold;
+}
+
+.products-section .banner-section .row .col-lg-6:last-child .shopBtn {
+    width: 95%;
+    border: none;
+    background: #CEA689;
+    padding: 10px 0;
+    color: #fff;
+    font-family: notoSansBold;
+    font-size: 16px;
+    margin: 1rem 0;
+}
+
+.products-section .banner-section .row .col-lg-6:last-child .collapseSection {
+    width: 95%;
+}
+
+.products-section .banner-section .row .col-lg-6:last-child .collapseSection .collapseBtn button {
+    width: 100%;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #000;
+    font-family: CantarellBold;
+    font-size: 14px;
+    color: #000;
+    margin: 15px 0;
+    padding: 10px 0;
+}
+
+.products-section .how-to-section {
+    background: #F4EDE7;
+    padding: 4rem 0;
+}
+
+.products-section .how-to-section .imgBox {
+    width: 100%;
+    /* height: 412px; */
+    height: 500px;
+    overflow: hidden;
+}
+
+.products-section .how-to-section .imgBox img {
+    width: 100%;
+    height: 100%;
+}
+
+.products-section .how-to-section h1 {
+    font-size: 48px;
+    margin-bottom: 2rem;
+    font-family: Playfair;
+    color: #000000;
+}
+
+.products-section .how-to-section .howTobox label {
+    font-family: CantarelRegular;
+    font-size: 14px;
+    margin-top: 10px;
+    color: #000000;
+}
+
+/* illuminated section */
+.illuminated-section .illuminatedImgBox {
+    width: 100%;
+    height: 650px;
+    padding: 3rem 0;
+}
+
+.illuminated-section .illuminatedImgBox img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.illuminated-section .content h1 span {
+    font-family: Playfair;
+    font-size: 48px;
+    color: #000000;
+}
+
+.content p {
+    font-size: 14px;
+    color: #000000;
+}
+
+.illuminated-section .content h1 {
+    font-family: PlayfairRegular;
+    color: #000000;
+    font-size: 48px;
+     
+}
+
+.illuminated-section .row .col-lg-6:last-child .content {
+    width: 60%;
+}
+
+/* ingredients section */
+.ingredients-section {
+    transform: translateY(-50px);
+}
+
+.ingredients-section .ingredientsHead {
+    transform: translateY(100px);
+}
+
+.ingredients-section h1 {
+    color: #000;
+    font-family: Playfair;
+    font-size: 48px;
+}
+
+.ingredients-section .ingredientBoxes,
+.ingredients-section .ingredientBoxesContent {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.ingredients-section .ingredientBoxes .ingredientBox {
+    width: 33.33%;
+}
+
+.ingredients-section .ingredientImgBox {
+    width: 100%;
+    height: 550px;
+    overflow: hidden;
+}
+
+.ingredients-section .ingredientImgBox img {
+    width: 100%;
+    height: 100%;
+}
+
+.ingredients-section .ingredientBoxes .ingredientBoxContent {
+    background: #F4EDE7;
+    padding: 1rem 3rem;
+}
+
+.ingredients-section .ingredientBoxes .ingredientBoxContent p {
+    font-size: 14px;
+    font-family: notoSansRegular;
+    color: #000000;
+}
+
+/* css by hassan */
+/*--Start Footer Styling--*/
+
+.customContainer {
+    max-width: 1440px;
+    margin: auto;
+}
+
+.footer {
+    background-color: #F4EDE7;
+    width: 100%;
+}
+
+
+.saleBtn:hover {
+    color: #000000;
+    border: 1px solid #CEA689;
+} 
+
+
+
+
+
+.footerLogo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+
+.footerColumnOne,
+.footerColumnThree {
+    padding: 60px 80px;
+}
+
+.footerColumnOne p,
+.footerColumnTwo p,
+.footerColumnThree a {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 12px;
+    color: #000000;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.footerColumnOne p {
+    line-height: 22px;
+}
+
+.footerColumnTwo {
+    text-align: center;
+    padding: 50px 55px;
+}
+
+.footerInput input {
+    width: 75%;
+    border: none;
+    outline: none;
+    text-align: center;
+    background-color: #F4EDE7;
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+}
+
+.footerButton a,
+.reviewButton a {
+    text-decoration: none;
+    color: #F4EDE7;
+}
+
+.footerButton a:hover,
+.reviewButton a:hover {
+    color: #F4EDE7;
+}
+
+.footerButton,
+.reviewButton {
+    margin-top: 15px;
+    border: none;
+    background-color: #CEA689;
+    color: #FFFFFF;
+    padding: 10px 30px;
+    font-size: 14px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 700;
+}
+
+
+.footerColumnTwo {
+    position: relative;
+    height: 100%;
+}
+
+.footerColumnTwo::after {
+    position: absolute;
+    content: '';
+    width: 2px;
+    height: 100%;
+    background-color: #999999;
+    top: 0;
+    right: -20px;
+}
+
+.footerColumnTwo::before {
+    position: absolute;
+    content: '';
+    width: 2px;
+    height: 100%;
+    background-color: #999999;
+    top: 0;
+    left: -20px;
+}
+
+.socialIcon i {
+    padding: 1px;
+    font-size: 20px;
+    color: #000000;
+}
+
+.footerColumnTwo h2 {
+    font-family: PlayfairItalic;
+    font-size: 36px;
+    color: #000000;
+    margin-top: 10px;
+}
+
+.footerInput input::placeholder {
+    font-size: 12px;
+    color: #000000;
+}
+
+footer .skinBtn {
+    font-size: 14px;
+}
+
+footer .skinBtn:hover {
+    color: #000;
+}
+
+/*--End Footer Styling--*/
+
+
+/*--Start Image Footer Styling--*/
+
+.footerImage img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/*--End Image Footer Styling--*/
+
+
+/*--Start Reviews Styling--*/
+
+.reviewsHeading h2 {
+    font-size: 48px;
+    font-family: 'Noto Sans', sans-serif;
+    color: #000000;
+    font-weight: 700;
+}
+
+.reviewsRating p {
+    margin-left: 20px;
+    margin-top: 3px;
+    font-size: 14px;
+    font-family: 'Noto Sans', sans-serif;
+    color: #000000;
+    font-weight: 700;
+}
+
+.reviewButton {
+    font-size: 16px;
+}
+
+.reviewsPadding {
+    padding: 30px;
+}
+
+.nameAndDate p {
+    margin-left: 10px;
+    font-size: 14px;
+    font-family: 'Noto Sans', sans-serif;
+    color: #000000;
+    font-weight: 400;
+}
+
+.date {
+    margin-left: 40px;
+}
+
+.reviewsListText p {
+    font-family: PlayfairItalic;
+    font-size: 36px;
+    color: #000000;
+    font-weight: 200;
+}
+
+.reviewsListOne {
+    margin-top: 30px;
+}
+
+.reviewsListTwo {
+    position: relative;
+}
+
+
+.reviewsBox::before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 1px;
+    background-color: #999999;
+    top: -30px;
+}
+
+.reviewsListTwo::before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 1px;
+    background-color: #999999;
+    top: -30px;
+}
+
+.reviewsListThree {
+    position: relative;
+}
+
+.reviewsListThree::before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 1px;
+    background-color: #999999;
+    top: -30px;
+}
+
+.reviewsListThree::after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 1px;
+    background-color: #999999;
+    bottom: -30px;
+}
+
+.reviewsBox {
+    margin-bottom: 100px;
+    margin-top: 100px;
+    position: relative;
+}
+
+.followUs {
+    font-size: 12px;
+    font-family: 'Noto Sans', sans-serif;
+    color: #000000;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 76px;
+}
+
+.followUs a {
+    text-decoration: none;
+    color: #000000;
+}
+
+
+
+.salesBtn a {
+    color: white;
+    text-decoration: none;
+}
+
+.salesBtn:hover {
+    color: #000000;
+}
+
+/*--End Reviews Styling--*/
+/* cart styling */
+.plus-minus i {
+    font-size: 8px;
+    padding: 0 3px;
+}
+
+.plus-minus {
+    font-size: 14px;
+    width: 30%;
+    align-items: center;
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.cart-box {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.cart-text p {
+    margin-bottom: 0 !important;
+    font-family: notoSansBold;
+    font-size: 14px;
+}
+
+.cart-text a {
+    font-family: notoSansBold;
+    font-size: 14px;
+    color: black;
+    margin-top: 8px;
+}
+
+.cart-text label {
+    font-family: notoSansBold;
+    font-size: 14px;
+}
+
+.cart-text span {
+    margin-bottom: 10px;
+    font-family: PlayfairItalic;
+    font-size: 14px;
+}
+
+.cart-text {
+    margin-left: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-cart-box {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.cart-heading h1 {
+    font-size: 20px;
+    font-family: PlayfairItalic;
+}
+
+.cart-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.containers {
+    width: 35%;
+    background: #F4EDE7;
+    margin-left: auto;
+    position: fixed;
+    z-index: 10;
+    transition: 1s all ease-in-out;
+    top: 94px;
+}
+
+.cart-container {
+    /* height: 85vh; */
+    position: relative;
+    padding: 2rem;
+}
+
+.cart-box-image {
+    height: 241px;
+    width: 175px;
+}
+
+.cart-box-image img {
+    height: 100%;
+    width: 100%;
+}
+
+.digit-amoun {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.digit-amoun span {
+    font-size: 20px;
+    font-family: PlayfairItalic;
+}
+
+.total-amount-butn {
+    position: absolute;
+    left: 32px;
+    right: 32px;
+    bottom: 0;
+    background: #F4EDE7;
+}
+
+.amount-buton {
+    text-align: center;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.amount-buton button {
+    width: 100%;
+    background: #CEA689;
+    border: none;
+    padding: 6px 0;
+    color: #fff;
+    font-family: notoSansBold;
+    font-size: 16px;
+}
+
+.for-position {
+    width: 100%;
+}
+
+.multi-cart-box {
+    overflow-y: auto;
+    height: 70%;
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+.multi-cart-box::-webkit-scrollbar {
+    display: none;
+}
+
+
+
+/* cart styling ends here */
+
+.created {
+    font-family: 'Noto Sans', sans-serif;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16.34px;
+}
+
+.orBB {
+    font-family: playfair;
+    font-size: 36px;
+    line-height: 46.01px;
+    margin-top: 15px;
+}
+
+.price span {
+    text-decoration: line-through;
+}
+
+@media only screen and (min-width:2560px) {
+    .containers {
+        width: 25%;
+    }
+    .cart-container {
+        height: 1070px !important;
+    }
+
+}
+
+@media only screen and (min-width:1920px) {
+    .products-section .banner-section .row .col-lg-6:last-child .shopBtn {
+        width: 97%;
+    }
+    .testimonial-sec .next{
+        right: 700px;
+    }
+    .testimonial-sec .prev{
+        left: 700px;
+    }
+   
+    .header,
+    .hover-sec .container1 {
+        padding: 20px 310px;
+    }
+    .cart-container {
+        height: 880px;
+    }
+}
+
+@media only screen and (max-width:1600px) {
+    .products-section .banner-section .row .col-lg-6:last-child .shopBtn {
+        width: 96%;
+    }
+    .cart-container {
+        height: 660px;
+    }
+
+}
+
+@media only screen and (max-width:1366px) {
+
+    .footerColumnOne,
+    .footerColumnThree {
+        padding: 60px;
+    }
+    .cart-container {
+        height: 635px;
+    }
+}
+
+@media only screen and (max-width:1440px) {
+    .products-section .banner-section .row .col-lg-6:last-child .shopBtn {
+        width: 95.4%;
+    }
+}
+
+@media only screen and (max-width:1024px) {
+    body {
+        width: 1024px;
+    }
+
+    .products-section .banner-section .row .col-lg-6:last-child .shopBtn {
+        width: 92%;
+    }
+
+    /* css by hassan */
+    .reviewsListText p {
+        font-size: 32px;
+    }
+
+    .containers {
+        width: 55%;
+    }
+    .cart-container {
+        height: 820px;
+    }
+    .footerPadding {
+        padding: 22px;
+    }
+
+    .footerColumnTwo h2 {
+        font-size: 32px;
+        margin-top: 0px;
+
+    }
+    .testimonial-sec .next{
+        right: 150px;
+    }
+    .testimonial-sec .prev{
+        left: 150px;
+    }
+    .headerIlluminated {
+        width: 100% !important;
+    }
+    .headerIlluminatedHeading {
+        left: 33% !important;
+    }
+    .illuminatedSkinContent {
+        padding: 50px 80px !important;
+    }
+    .illuminatedSkinText {
+        width: 450px !important;
+    }
+    .right-side {
+        margin-top: 60px;
+    }
+}
+
+@media only screen and (max-width:768px) {
+
+     /* swiper */
+     .swiper {
+        width: 100%;
+      }
+      .slider-section .swiper {
+        width: 100%;
+    }
+
+      .testimonial-sec .next{
+        right: 70px;
+    }
+    .testimonial-sec .prev{
+        left: 70px;
+    }
+
+    .products-section .banner-section .row .col-lg-6:last-child .shopBtn {
+        width: 100%;
+    }
+
+    .products-section .banner-section .row {
+        padding: 0;
+        margin: auto;
+    }
+
+    .products-section .banner-section .row .col-lg-6 {
+        padding: 0;
+    }
+
+    .right-side {
+        padding: 0px 2rem;
+    }
+
+    .right-side .row .col-sm-8 {
+        padding-left: 0;
+    }
+
+    .right-side .row .col-sm-4 {
+        padding-right: 0;
+    }
+
+    .products-section .banner-section .row .col-lg-6:last-child .collapseSection {
+        width: 100%;
+    }
+
+    .products-section .how-to-section .howTobox label {
+        margin: 1rem 0 2rem 0;
+    }
+
+    .products-section .banner-section .row .col-lg-6:last-child h1:first-child {
+        width: 100%;
+    }
+
+    /* ingredients section */
+    .ingredients-section {
+        transform: translateY(0px);
+    }
+
+    .ingredients-section .ingredientBoxes,
+    .ingredients-section .ingredientBoxesContent {
+        background: #f3f3f3;
+    }
+
+    .ingredients-section .ingredientBoxes .ingredientBox {
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    /* css by hassan */
+    .footerColumnOne,
+    .footerColumnTwo,
+    .footerColumnThree {
+        width: 60%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .footerColumnTwo::after,
+    .footerColumnTwo::before {
+        display: none;
+    }
+
+    .footerImageBox {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .footerImage {
+        width: 50%;
+    }
+
+    .reviewsListText p {
+        font-size: 24px;
+    }
+
+    .reviewsHeading h2 {
+        font-size: 36px;
+    }
+
+    .reviewButton {
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+
+    .containers {
+        width: 65%;
+    }
+    .skinProductImageBox {
+        flex-direction: column;
+     }
+     
+     .productImageOne {
+         height: 600px;
+     }
+     
+     .productImageTwo,
+     .productImageThree,
+     .productImageFour,
+     .productImageFive {
+         height: 400px;
+     }
+     .productImageThree,
+     .productImageFive {
+         margin-top: 0px;
+     }
+     .productImageOneTitle,
+     .productImageTwoTitle,
+     .productImageThreeTitle,
+     .productImageFourTitle,
+     .productImageFiveTitle {
+        position: absolute;
+        top: 7%;
+        right: 9%;
+     }
+     .illuminated-section .content h1,
+     .illuminated-section .content h1 span {
+         font-size: 36px;
+     }
+     .right-side {
+         margin: 30px 0px;
+     }
+     .products-section .how-to-section .imgBox {
+        width: 500px !important;
+        height: 600px !important;
+        margin: auto;
+    }
+   .founderBox {
+    width: 75%;
+    margin: auto;
+    text-align: center;
+   }
+   .orBB {
+       margin-bottom: 10px;
+   }
+   .cart-container {
+    height: 1024px;
+}
+}
+
+@media only screen and (max-width:540px){
+    .testimonial-sec .next,
+    .testimonial-sec .prev{
+      display: none;
+  }
+  .comment {
+    width: 80%;
+}
+.ourStoryHeader {
+    height: 130vh !important;
+}
+.cart-container {
+    height: 720px;
+}
+}
+
+@media only screen and (max-width:414px) {
+
+    .swiper {
+        width: 100%;
+      }
+      .slider-section .swiper {
+        width: 100%;
+    }
+    .swiper-pointer-events {
+        touch-action: pan-y;
+    }
+    .right-side .row .col-sm-8 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .right-side .row .col-sm-4 {
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .products-section .banner-section .row .col-lg-6:last-child .qtyCounter {
+        margin-top: 1rem;
+    }
+
+    /* ingredients section */
+    .ingredients-section .ingredientBoxes .ingredientBox,
+    .ingredients-section .ingredientBoxes .ingredientBoxContent {
+        width: 100%;
+    }
+
+    .ingredients-section .ingredientsHead {
+        transform: translateY(70px);
+    }
+
+    /* css by hassan */
+    /* .footerColumnOne,
+    .footerColumnTwo,
+    .footerColumnThree {
+        width: 100%;
+    } */
+
+    .footerColumnThree {
+        margin-top: 0px;
+    }
+
+    .reviewsHeading h2 {
+        font-size: 36px;
+    }
+
+    .reviewButton {
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+
+    .containers {
+        width: 414px;
+    }
+    .comment-sec .comment:after{
+        bottom:-10px;
+        }
+        .comment-sec .comment:before{
+            top:-10px;
+         }
+         .cart-container {
+            height: 736px;
+        }
+}
+
+
+/*--start--*/
+/*--styling by hassan--*/
+
+/*--Start Our Story Styling--*/
+
+.ourStoryHeader {
+    margin-top: 60px;
+    padding: 40px 75px;
+}
+
+.ourStoryImage {
+    width: 596px;
+    height: 761px;
+    overflow: hidden;
+}
+
+.ourStoryContent {
+    position: relative;
+    height: 100%;
+}
+
+.ourStoryHeading {
+    position: absolute;
+    top: 25%;
+    left: -15%;
+}
+
+.ourIngredientImageOne,
+.ourIngredientImageTwo,
+.ourIngredientImageThree {
+    width: 377px;
+    height: 508px;
+    overflow: hidden ;
+}
+
+.ourIngredientImageOne img,
+.ourIngredientImageTwo img,
+.ourIngredientImageThree img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.ourIngredientImageThreeText p{
+    width: 55%;
+    margin: auto;
+}
+
+.ourIngredient {
+    background-color: #F4EDE7;
+    padding: 40px 0px;
+
+}
+
+.ourIngredientImageBox {
+    padding: 40px 0px;
+
+}
+
+.ourIngredientImageOne,
+.ourIngredientImageTwo,
+.ourIngredientImageThree {
+    position: relative;
+}
+
+.ourIngredientImageOneTitle,
+.ourIngredientImageTwoTitle,
+.ourIngredientImageThreeTitle {
+    position: absolute;
+    top: 8%;
+    left: 12%;
+}
+
+.ourIngredientImageOneTitle p,
+.ourIngredientImageTwoTitle p,
+.ourIngredientImageThreeTitle p {
+    font-size: 36px;
+    font-family: PlayfairItalic;
+    color: #000000;
+}
+
+.ourStoryHeading h1 {
+    font-size: 48px;
+    font-family: PlayfairRegular;
+    color: #000000;
+}
+
+.ourStoryHeading h1 span {
+    font-size: 48px;
+    color: #000000;
+    font-family: PlayfairItalic;
+}
+
+.ourIngredient h1,
+.founderHeading h1 {
+    font-size: 48px;
+    font-family: PlayfairItalic;
+    color: #000000;
+}
+.ourIngredientImageThreeText p,
+.founderText p {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 400px;
+    font-size: 14px;
+    color: #000000;
+    line-height: 20px;
+    margin-top: 20px;
+
+}
+
+.ourStoryHeading p {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 400px;
+    font-size: 14px;
+    color: #000000;
+    line-height: 20px;
+    width: 75%;
+    margin-top: 20px;
+}
+
+
+.founderImageOne {
+    width: 365px;
+    height: 476px;
+    overflow: hidden;
+}
+
+.founderImageTwo {
+    position: absolute;
+    width: 297px;
+    height: 278px;
+    overflow: hidden;
+    right: 6%;
+    margin-top: 20px;
+}
+
+.founderImageThree {
+    position: absolute;
+    width: 247px;
+    height: 314px;
+    overflow: hidden;
+    top: 60%;
+    right: 27%;
+}
+
+.founderImageOne img,
+.founderImageTwo img,
+.founderImageThree img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.founderSection {
+    height: 900px;
+    padding: 50px;
+}
+
+.founderImageColumnOne,
+.founderImageColumnTwo {
+    position: relative;
+    height: 100%;
+}
+
+.founderImageColumnOne {
+    margin-left: 20px;
+}
+
+.founderContent {
+    position: relative;
+    height: 100%;
+}
+
+.founderBox {
+    position: absolute;
+    top: 70%;
+    left: 10%;
+}
+
+/*--End Our Story Styling--*/
+
+
+/*--Start Illuminated Skin Styling--*/
+
+.headerIlluminatedBox {
+    position: relative;
+}
+
+.headerIlluminated {
+    width: 1440px;
+    height: 667px;
+    overflow: hidden;
+}
+
+.headerIlluminated img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.headerIlluminatedHeading {
+    position: absolute;
+    top: 45%;
+    left: 39%;
+}
+
+.headerIlluminatedHeading h1 {
+    font-size: 48px;
+    color: #fff;
+    font-family: PlayfairItalic;  
+    line-height: 61px;
+}
+
+.headerIlluminatedHeading h1 span{
+    font-size: 48px;
+    color: #fff;
+    font-family: PlayfairRegular;
+    line-height: 61px;
+}
+
+.illuminatedSkinContent {
+    position: static;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px 200px;
+}
+
+.illuminatedSkinImage {
+    width: 284px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.illuminatedSkinImage img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.illuminatedSkinText {
+    width: 500px;
+    margin-top: 20px;
+
+}
+
+.illuminatedSkinText h1 {
+    font-size: 48px;
+    font-family: PlayfairItalic;  
+    color: #000000;
+}
+
+.illuminatedSkinText h1 span {
+    font-size: 48px;
+    font-family: PlayfairRegular;  
+    color: #000000;
+}
+
+.illuminatedSkinText p {
+    font-size: 14px;
+    font-family: 'Noto Sans', sans-serif;
+    color: #000000;
+    margin-top: 20px;
+}
+
+
+/*--End Illuminated Skin Styling--*/
+
+
+.main-body {
+    margin-top: 70px;
+}
+
+.test {
+    background-color: #fff;
+    top: 0;
+  }
+
+
+
+
+
+
+
+
+@media only screen and (max-width:1366px) {
+    .ourStoryHeading {
+        left: 0%;
+    }
+    .ourStoryHeading p {
+        width: 95%;
+    }
+    .ourIngredientImageOne,
+    .ourIngredientImageTwo,
+    .ourIngredientImageThree {
+        width: 350px;
+    }
+    .ourIngredientImageThreeText p {
+        margin-top: 0px;
+    }
+    .founderImageColumnOne {
+        margin-left: 0px;
+    }
+    .founderImageThree {
+        right: 0%;
+    }
+    .founderImageTwo {
+        right: -5%;
+    }
+    .cardImageText h2 {
+        left: 13%;
+    }
+}
+
+@media only screen and (max-width:1024px) {
+.ourStoryImage {
+    width: 500px;
+}
+.ourStoryHeading {
+    position: absolute;
+    top: 25%;
+    left: -2%;
+}
+
+.ourStoryHeading h1 {
+    font-size: 36px;
+}
+.ourStoryHeading h1 span {
+    font-size: 36px;
+}
+.ourIngredientImageOne,
+.ourIngredientImageTwo,
+.ourIngredientImageThree {
+    width: 300px;
+}
+.founderImageOne {
+    width: 280px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.founderImageTwo {
+    width: 280px;
+    height: 278px;
+    overflow: hidden;
+    right: 6%;
+    margin-top: 20px;
+}
+
+.founderImageThree {
+    width: 200px;
+    height: 314px;
+    overflow: hidden;
+    right: 1%;
+}
+.founderImageTwo {
+    right: -1%;
+}
+
+.founderBox {
+    top: 60%;
+}
+.cardImageText h2 {
+    left: 8%;
+    font-size: 32px;
+}
+
+}
+
+@media only screen and (max-width:768px) {
+    .ourStoryHeader {
+        height: 100vh;
+    }
+    .ourStoryImage {
+        width: 500px;
+        height: 630px;
+        margin: auto;
+    }
+    .ourStoryHeading {
+        margin-top: 20px;
+        padding: 0px 25px;
+    }
+    .ourIngredientImageOne,
+.ourIngredientImageTwo,
+.ourIngredientImageThree {
+    width: 500px;
+    height: 600px;
+    margin: auto;
+    margin-bottom: 25px;
+
+}
+
+.founderImageOne,
+.founderImageTwo,
+.founderImageThree {
+    position: static;
+    width: 100%;
+    height: 400px;
+    margin-bottom: 25px;
+
+}
+
+.founderImageTwo {
+    right: 0%;
+}
+.founderSection {
+    height: 100%;
+    padding: 50px;
+}
+.founderBox {
+    position: static;
+    margin-bottom: 25px;
+}
+.cardImageText h2 {
+    left: 37%;
+}
+}
+
+@media only screen and (max-width:414px) {
+    .ourStoryHeader {
+        height: 100vh !important;
+    }
+    .ourStoryImage {
+        width: 500px;
+        height: 450px;
+        margin: auto;
+    }
+     .ourStoryHeading {
+        text-align: center;
+    }
+    .cardImageText h2 {
+        left: 40%;
+    }
+    .founderImageOne,
+.founderImageTwo,
+.founderImageThree,
+.founderBox {
+    width: 60%;
+    margin: auto;
+    margin-bottom: 25px;
+
+}
+}
+
+/*--styling by hassan--*/
+/*--end--*/
+
+.hover-sec:hover {
+    background-color: #fff;
+}
